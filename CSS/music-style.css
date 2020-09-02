@@ -1,0 +1,207 @@
+body {
+    font-family: 'Rubik', sans-serif
+}
+
+.container {
+    margin-top: 50px
+}
+
+#baf {
+    position: absolute;
+    left: 0vw;
+    font-size: 2.5vw
+}
+
+#baf a {
+    color: rgb(255, 255, 255, 0.5)
+}
+
+#upg {
+    border-radius: 25px;
+    margin: 1vh;
+    background: inherit;
+    color: white;
+    border: 1px solid white
+}
+
+#user {
+    font-size: 3vh;
+    color: white;
+    position: relative;
+    bottom: 0.5vh
+}
+
+#user:hover {
+    background: inherit
+}
+
+.input-group-addon {
+    background-color: black;
+    color: white
+}
+
+.navbar {
+    background-color: inherit
+}
+
+#sm {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5vw
+}
+
+#main {
+    background-image: linear-gradient(#006064, #c5e1a5)
+}
+
+#photo {
+    padding: 2vw;
+    padding-left: 5vw;
+    padding-bottom: 2vh
+}
+
+#detail {
+    padding: 2vw;
+    color: white;
+    padding-bottom: 2vh
+}
+
+#play {
+    background-color: green;
+    color: white;
+    width: 80px;
+    border-radius: 25px
+}
+
+#like {
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    background: inherit;
+    border: 1px solid white
+}
+
+#more {
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    background: inherit;
+    border: 1px solid white
+}
+
+#detail h1 {
+    font-size: 7vh
+}
+
+tbody {
+    color: white
+}
+
+thead {
+    color: rgb(255, 255, 255, 0.5)
+}
+
+.table { }
+
+tbody tr:hover {
+    background-color: green
+}
+
+#dir {
+    font-size: 5vh
+}
+
+#dir a {
+    color: white;
+    position: relative;
+    bottom: 1vh
+}
+
+#dir a:hover {
+    background: inherit
+}
+
+#dir a:focus {
+    background: inherit
+}
+
+#play:hover {
+    background-color: #a5d6a7
+}
+
+@media only screen and (max-width: 425px) {
+    #dir {
+        display: none
+    }
+
+    #sm {
+        position: relative;
+        left: 30vw;
+        border-radius: 10vh
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    #dir {
+        display: none
+    }
+
+    #sm {
+        position: relative;
+        left: 35vw;
+        border-radius: 10vh
+    }
+}
+
+/* music */
+
+/* .audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+} */
+
+.audio { 
+    width: 600px; 
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
+  }
+
+  /* .navbar */
+  .navbar {
+    background: #000000
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #fec400;
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fec400
+}
+
+.nav-link {
+    padding: 25px 5px;
+    transition: 0.2s
+}
+
+body {
+    background-color: grey
+}
